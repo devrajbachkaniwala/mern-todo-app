@@ -1,0 +1,5 @@
+.todo-list-container {
+  list-style-type: none;
+  max-width: 600px;
+  margin: 0 auto;
+}

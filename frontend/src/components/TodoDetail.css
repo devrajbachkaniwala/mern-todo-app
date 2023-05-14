@@ -1,0 +1,46 @@
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 4px;
+}
+
+.btn-container .edit-btn {
+  text-decoration: none;
+  color: blue;
+  border: 2px solid blue;
+}
+
+.btn-container .edit-btn:hover {
+  background-color: blue;
+  color: white;
+}
+
+.btn-container .delete-btn {
+  text-decoration: none;
+  color: red;
+  border: 2px solid red;
+  margin-left: 5px;
+}
+
+.btn-container .delete-btn:hover {
+  background-color: red;
+  color: white;
+}
+
+.todo-detail-container {
+  background-color: rgba(250, 235, 215, 0.3);
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.title {
+  background-color: rgba(250, 235, 215, 1);
+  border-radius: 10px;
+}
+
+.description {
+  background-color: rgba(250, 235, 215, 0.7);
+  border-radius: 10px;
+}

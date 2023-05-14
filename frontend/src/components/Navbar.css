@@ -1,0 +1,43 @@
+.navbar-container ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.link {
+  border: 2px solid black;
+  margin: 4px;
+  border-radius: 5px;
+  padding: 2px 4px;
+}
+
+.current-route,
+.link:hover:not(.app-name) {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.current-route.link {
+  color: white;
+}
+
+.link {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.app-name {
+  border: none;
+  font-size: 2em;
+}
+
+.item-1 {
+  flex-grow: 2;
+  text-align: left;
+}
+
+.item-3 {
+  margin-right: 40px;
+}

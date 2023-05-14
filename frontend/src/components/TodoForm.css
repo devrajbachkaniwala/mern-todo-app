@@ -1,0 +1,48 @@
+.form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.form div {
+  display: flex;
+  margin: 10px;
+}
+
+.form div label {
+  width: 30%;
+  text-align: left;
+}
+
+.form div input,
+.form div textarea {
+  width: 70%;
+  text-align: left;
+  padding: 2px 4px;
+}
+
+.form div input[type='checkbox'] {
+  width: auto;
+  margin: 0;
+}
+
+textarea {
+  height: 100px;
+}
+
+.button {
+  border: 2px solid green;
+  background-color: white;
+  color: green;
+  padding: 2px 4px;
+  font-weight: 600;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+.button:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
